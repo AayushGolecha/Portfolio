@@ -792,7 +792,12 @@ body {
 	#name .picture{
 		height: 300px;
 		width: 320px;
-		margin-left: 150px;
+		/* margin-left: 50px; */
+	}
+
+	.name{
+		flex-direction: column-reverse;
+		gap: 100px;
 	}
 
 	/* End name */
