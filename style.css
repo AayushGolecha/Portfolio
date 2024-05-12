@@ -771,6 +771,17 @@ body {
 	}
 }
 
+@media only screen and (max-width: 1200px){
+	.name{
+		flex-direction: column-reverse;
+		gap: 100px;
+	}
+
+	.section-title{
+		font-size: 5.8rem;
+	}
+}
+
 @media only screen and (min-width: 768px) {
 
 	.cta {
@@ -779,7 +790,7 @@ body {
 	}
 
 	h1.section-title {
-		font-size: 6rem;
+		font-size: 5.8rem;
 	}
 
 	/* name */
@@ -795,10 +806,6 @@ body {
 		/* margin-left: 50px; */
 	}
 
-	.name{
-		flex-direction: column-reverse;
-		gap: 100px;
-	}
 
 	/* End name */
 
